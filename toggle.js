@@ -4,6 +4,7 @@ const toggleBtnIcon = document.querySelector('.toggle-btn i');
 const dropDownMenu = document.querySelector('.drop-down');
 const main = document.getElementById("main");
 // console.log(main.innerHTML);
+const overlay = document.getElementById("overlay");
 
 toggleBtn.onclick = function() {
     dropDownMenu.classList.toggle('open');
